@@ -1,0 +1,41 @@
+body{ 
+   color:white;
+   background-image: url(dots.png);}  
+ #wrapper{
+   width:60%;
+   magin:auto;
+   margin-top:30px;}
+  #class{
+    height=300px;}
+#wrapper{
+   width:60%;
+   margin:auto;
+   margin-top:30px;}
+#borderimg1 {
+  border-blend:normal;
+  background-color:pink;
+  border: 15px solid transparent;
+  padding: 20px;
+  border-image: url('border.png') 50 round;
+  border-image-slice: 15%;}
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 10px;
+  border-image: url('border.png')20%round;}
+ul {
+   list-style-image: url('mo.png');
+   list-style-position: inside;
+}
+img{    
+  background-image: url('sad.png');
+  background-position: right bottom;
+  background-repeat: round;
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image-source: url('border.png');  
+  border-image-repeat: stretch;
+  border-image-slice: 30;
+  border-image-width: 15px;
+  border-image-outset: 2;
+}
+  
